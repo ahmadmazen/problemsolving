@@ -1,0 +1,32 @@
+package problems.easy;
+
+import org.junit.jupiter.api.Test;
+
+/**
+ * problem definition:https://leetcode.com/problems/sqrtx/
+ */
+public class sqrt {
+	/*
+	 * using binary search
+	 */
+	public int mySqrt(int x) {
+       // since sqrt(1) = 1, sqrt(0) = 0
+		if(x < 2) {
+			return x;
+		}
+		int left = 1, right = x/2, pivot;
+		
+		
+		return right;
+	}
+	
+	
+	@Test
+	public void test_mySqrt() {
+		
+	}
+	public static void main(String[] args) {
+
+	}
+	
+}

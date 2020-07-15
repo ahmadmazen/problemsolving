@@ -1,0 +1,37 @@
+package problems.easy;
+
+import org.junit.jupiter.api.Test;
+
+/**
+ * problem definition:https://leetcode.com/problems/sqrtx/
+ */
+public class sqrt {
+	/*
+	 * using binary search
+	 */
+	public int mySqrt(int x) {
+       // since sqrt(1) = 1, sqrt(0) = 0
+		if(x < 2) {
+			return x;
+		}
+		//left boundary start from 2
+		//why our end boundary is at the half point of x
+		//because it's proven that if x >= 2 the  sqrt(x) is always smaller than x/2
+		//for example: when x = 10 --> sqrt(10) = 3.16 which is smaller than 10/2
+		
+		int left = 2, right = x/2, pivot;
+		
+		
+		return right;
+	}
+	
+	
+	@Test
+	public void test_mySqrt() {
+		
+	}
+	public static void main(String[] args) {
+
+	}
+	
+}
