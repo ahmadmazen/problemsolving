@@ -10,7 +10,9 @@
  * Nice comments will be inlined to explain the approach and confusy part to help me next time I revisit
    the same problem.
    
- * URLs to choosen videos or even articles explaining the approach which helped me to understand.
+ * URLs to choosen videos or even articles explaining the approach, helped me to understand.
+ 
+ * Each problem in a separate class named briefly as the problem's  name, and some test cases will be provided.
  
  
  
