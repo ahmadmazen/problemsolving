@@ -163,7 +163,7 @@ public class SearchRotatedSortedArray {
 		int right = nums.length - 1;
 		
 		while(left <= right) {
-			int pivot = left + (right - left) / 2;
+			int pivot = left + ((right - left) / 2);
 			//if the target equal to pivot, then the job is done
 			if(nums[pivot] == target) {
 				return pivot;
@@ -172,7 +172,7 @@ public class SearchRotatedSortedArray {
 	        //two: when the pivot is located in somewhere in the rotated part
 			//to distinguish that by comparing the pivot element with the first element
 			//if greater then scenario one (non-rotated)
-			}else if(nums[pivot] >= nums[left]) {
+			}else if(nums[pivot] > nums[left]) {
 				//scenario one --> non-rotated part
 				//we need to check if the target is in this non-rotated half
 				//by comparing the target with left element and the pivot element
@@ -238,9 +238,6 @@ public class SearchRotatedSortedArray {
 		assertEquals(1, search_approach_two(arr, 5));
 		
 		assertEquals(6, search_approach_two(arr, 2));
-		
-		arr = new int[] {3, 1};
-		assertEquals(1, search_approach_two(arr, 1));
 		
 		//tricky test case, it's the reason for the comment in line 167 for the equality operator
 		assertEquals(4, search_approach_two(arr, 0));

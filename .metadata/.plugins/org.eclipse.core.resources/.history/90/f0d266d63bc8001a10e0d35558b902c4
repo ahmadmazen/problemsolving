@@ -163,7 +163,7 @@ public class SearchRotatedSortedArray {
 		int right = nums.length - 1;
 		
 		while(left <= right) {
-			int pivot = left + (right - left) / 2;
+			int pivot = left + ((right - left) / 2);
 			//if the target equal to pivot, then the job is done
 			if(nums[pivot] == target) {
 				return pivot;
@@ -239,8 +239,7 @@ public class SearchRotatedSortedArray {
 		
 		assertEquals(6, search_approach_two(arr, 2));
 		
-		arr = new int[] {3, 1};
-		assertEquals(1, search_approach_two(arr, 1));
+		assertEquals(1, search_approach_two(new int[] {3, 1}, 1));
 		
 		//tricky test case, it's the reason for the comment in line 167 for the equality operator
 		assertEquals(4, search_approach_two(arr, 0));
