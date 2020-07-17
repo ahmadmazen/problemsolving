@@ -61,9 +61,9 @@ public class sqrt {
 	
 	@Test
 	public void test_mySqrt() {
-		assertEquals(mySqrt(10), 3);
-		assertEquals(mySqrt(4), 2);
-		assertEquals(mySqrt(25), 5);
+		assertEquals(3, mySqrt(10));
+		assertEquals(2, mySqrt(4));
+		assertEquals(5, mySqrt(25));
 	}
 	
 	
