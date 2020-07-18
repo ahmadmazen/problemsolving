@@ -80,7 +80,7 @@ public class FirstBadVersion {
 
 	/*
 	 * helper method to set the bad versions we want to test with, to simulate the one 
-	 * running behind the scene in leetcode platform, to be able to test our code outside the platform
+	 * run behind the scene in leetcode platform, to be able to test our code outside the platform
 	 * @param n : the number of versions
 	 * @param startBadVersion: the start bad version --> to mark the versions bad starting from it
 	 */
