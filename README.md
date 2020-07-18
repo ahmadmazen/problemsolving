@@ -7,7 +7,7 @@
  * I will dedicate one branch to each concept(algorithm or DS), in which will find the related problems
    I solved.
  
- * Nice comments will be inlined to explain the approach and confusy part to help me next time I revisit
+ * Nice comments will be inlined to explain the approach and confusy parts to help me next time I revisit
    the same problem.
    
  * URLs to choosen videos or even articles explaining the approach, helped me to understand.
