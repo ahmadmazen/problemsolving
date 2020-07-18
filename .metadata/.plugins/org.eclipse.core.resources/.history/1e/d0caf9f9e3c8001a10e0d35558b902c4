@@ -1,0 +1,28 @@
+package problems.easy;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class FirstBadVersion {
+	Map<Integer, Boolean> badVersionMap = new HashMap<>();
+	/*
+	 * will use abit different implementation of regular binary search
+	 * to reduce the number of calls to isBadVersion
+	 * that by left < right to save some iteration and induce the result 
+	 */
+    
+	
+	/*
+     * helper method to set the bad versions we want to test with
+     */
+	
+	private void intializeBadVersionMap(int n, int startBadVersion) {
+		for(int i = 1; i <= n; i++) {
+			this.badVersionMap.put(i, i >= startBadVersion ? true : false);	
+		}		
+	}
+	
+	private boolean isBadVersion(int n) {
+		return badVersionMap.get(n);
+	}
+}

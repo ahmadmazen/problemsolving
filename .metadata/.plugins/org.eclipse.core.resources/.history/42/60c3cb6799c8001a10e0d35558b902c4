@@ -1,0 +1,10 @@
+package problems.easy;
+
+public class FirstBadVersion {
+	/*
+	 * will use abit different implementation of regular binary search
+	 * to reduce the number of calls to isBadVersion
+	 * that by left < right to save some iteration and induce the result 
+	 */
+
+}

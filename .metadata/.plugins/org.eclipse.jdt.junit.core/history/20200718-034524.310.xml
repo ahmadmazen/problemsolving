@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="sqrt (1)" project="binarysearch" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="problems.easy.sqrt" time="0.022" displayname="sqrt" uniqueid="[engine:junit-jupiter]/[class:problems.easy.sqrt]">
+    <testcase name="test_mySqrt" classname="problems.easy.sqrt" time="0.022" displayname="test_mySqrt()" uniqueid="[engine:junit-jupiter]/[class:problems.easy.sqrt]/[method:test_mySqrt()]"/>
+  </testsuite>
+</testrun>
