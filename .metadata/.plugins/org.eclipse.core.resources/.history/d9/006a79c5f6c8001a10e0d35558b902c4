@@ -1,0 +1,9 @@
+package problems.medium;
+/*
+ * https://leetcode.com/problems/find-peak-element/solution/
+ * it's well explained in leetCode, I encourage you to read the article there
+ * 
+ */
+public class FindPeakElement {
+
+}
