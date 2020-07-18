@@ -20,7 +20,6 @@ INDEX VERSION 1.131+C:\problemsolving\.metadata\.plugins\org.eclipse.jdt.core
 1669213225.index
 3292632878.index
 2530313595.index
-1697991191.index
 467232603.index
 2894849925.index
 3984255774.index
