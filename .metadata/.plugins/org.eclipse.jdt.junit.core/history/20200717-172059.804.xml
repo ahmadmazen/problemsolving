@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="SearchRotatedSortedArray" project="binarysearch" tests="4" started="1" failures="0" errors="0" ignored="0">
-  <testsuite name="problems.medium.SearchRotatedSortedArray" incomplete="true" displayname="SearchRotatedSortedArray" uniqueid="[engine:junit-jupiter]/[class:problems.medium.SearchRotatedSortedArray]">
-    <testcase name="test_rotationIndex" classname="problems.medium.SearchRotatedSortedArray" incomplete="true" displayname="test_rotationIndex()" uniqueid="[engine:junit-jupiter]/[class:problems.medium.SearchRotatedSortedArray]/[method:test_rotationIndex()]"/>
-    <testcase name="test_search_approach_One" classname="problems.medium.SearchRotatedSortedArray" incomplete="true" displayname="test_search_approach_One()" uniqueid="[engine:junit-jupiter]/[class:problems.medium.SearchRotatedSortedArray]/[method:test_search_approach_One()]"/>
-    <testcase name="test_search_approach_two" classname="problems.medium.SearchRotatedSortedArray" incomplete="true" displayname="test_search_approach_two()" uniqueid="[engine:junit-jupiter]/[class:problems.medium.SearchRotatedSortedArray]/[method:test_search_approach_two()]"/>
-    <testcase name="test_binarySearchTarget" classname="problems.medium.SearchRotatedSortedArray" incomplete="true" displayname="test_binarySearchTarget()" uniqueid="[engine:junit-jupiter]/[class:problems.medium.SearchRotatedSortedArray]/[method:test_binarySearchTarget()]"/>
-  </testsuite>
-</testrun>

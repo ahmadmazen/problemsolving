@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="SearchRotatedSortedArray" project="binarysearch" tests="1" started="1" failures="0" errors="0" ignored="0">
-  <testsuite name="problems.medium.SearchRotatedSortedArray" time="0.034" displayname="SearchRotatedSortedArray" uniqueid="[engine:junit-jupiter]/[class:problems.medium.SearchRotatedSortedArray]">
-    <testcase name="test_rotationIndex" classname="problems.medium.SearchRotatedSortedArray" time="0.034" displayname="test_rotationIndex()" uniqueid="[engine:junit-jupiter]/[class:problems.medium.SearchRotatedSortedArray]/[method:test_rotationIndex()]"/>
-  </testsuite>
-</testrun>

@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="FirstBadVersion" project="binarysearch" tests="1" started="1" failures="0" errors="0" ignored="0">
-  <testsuite name="problems.easy.FirstBadVersion" incomplete="true" displayname="FirstBadVersion" uniqueid="[engine:junit-jupiter]/[class:problems.easy.FirstBadVersion]">
-    <testcase name="test_firstBadVersion" classname="problems.easy.FirstBadVersion" incomplete="true" displayname="test_firstBadVersion()" uniqueid="[engine:junit-jupiter]/[class:problems.easy.FirstBadVersion]/[method:test_firstBadVersion()]"/>
-  </testsuite>
-</testrun>

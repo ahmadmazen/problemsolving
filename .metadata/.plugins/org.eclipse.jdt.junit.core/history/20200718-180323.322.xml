@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="FindPeakElement" project="binarysearch" tests="1" started="1" failures="0" errors="0" ignored="0">
-  <testsuite name="problems.medium.FindPeakElement" time="0.022" displayname="FindPeakElement" uniqueid="[engine:junit-jupiter]/[class:problems.medium.FindPeakElement]">
-    <testcase name="test_findPeakElement" classname="problems.medium.FindPeakElement" time="0.022" displayname="test_findPeakElement()" uniqueid="[engine:junit-jupiter]/[class:problems.medium.FindPeakElement]/[method:test_findPeakElement()]"/>
-  </testsuite>
-</testrun>
