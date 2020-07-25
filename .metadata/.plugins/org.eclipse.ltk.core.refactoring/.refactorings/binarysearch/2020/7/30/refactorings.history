@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;firstIndex&apos; in &apos;problems.medium.SearchRange.binarySearchBeginningIndex(...)&apos; to &apos;leftmostIndex&apos;&#x0D;&#x0A;- Original project: &apos;binarysearch&apos;&#x0D;&#x0A;- Original element: &apos;problems.medium.SearchRange.binarySearchBeginningIndex(int[], int).firstIndex&apos;&#x0D;&#x0A;- Renamed element: &apos;firstIndex&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;firstIndex&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;problems.medium{SearchRange.java[SearchRange~binarySearchBeginningIndex~\[I~I@firstIndex!3076!3095!3080!3089!I!0!false" name="leftmostIndex" references="true" stamp="1595688577465" version="1.0"/>
+</session>

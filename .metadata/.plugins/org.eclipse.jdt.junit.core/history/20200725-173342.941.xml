@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="SearchRange" project="binarysearch" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="problems.medium.SearchRange" incomplete="true" displayname="SearchRange" uniqueid="[engine:junit-jupiter]/[class:problems.medium.SearchRange]">
+    <testcase name="test_searchRange_approach_two" classname="problems.medium.SearchRange" incomplete="true" displayname="test_searchRange_approach_two()" uniqueid="[engine:junit-jupiter]/[class:problems.medium.SearchRange]/[method:test_searchRange_approach_two()]"/>
+  </testsuite>
+</testrun>

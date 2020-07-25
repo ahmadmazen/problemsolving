@@ -1,0 +1,11 @@
+package problems.medium;
+
+public class SearchRange {
+	 public int[] searchRange(int[] nums, int target) {
+		 int[] targetRange = {-1, -1};
+		 
+		 
+		 
+		 return targetRange;
+	 }
+}
