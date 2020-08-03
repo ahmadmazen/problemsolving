@@ -197,7 +197,7 @@ public class SearchRange {
 		assertArrayEquals(new int[] { -1, -1 }, searchRange_approach_two(new int[] { 5, 7, 7, 8, 8, 10 }, 6));
 	}
 	
-	@Test
+	@Test	
 	public void test_searchRange_approach_three() {
 
 		assertArrayEquals(new int[] { 3, 4 }, searchRange_approach_three(new int[] { 5, 7, 7, 8, 8, 10 }, 8));

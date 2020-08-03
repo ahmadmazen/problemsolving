@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="FindKClosestElements (1)" project="binarysearch" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="problems.medium.FindKClosestElements" incomplete="true" displayname="FindKClosestElements" uniqueid="[engine:junit-jupiter]/[class:problems.medium.FindKClosestElements]">
+    <testcase name="test_findClosestKElements_approach_three" classname="problems.medium.FindKClosestElements" time="0.046" displayname="test_findClosestKElements_approach_three()" uniqueid="[engine:junit-jupiter]/[class:problems.medium.FindKClosestElements]/[method:test_findClosestKElements_approach_three()]"/>
+    <testcase name="test_findClosestKElements_approach_one" classname="problems.medium.FindKClosestElements" time="0.006" displayname="test_findClosestKElements_approach_one()" uniqueid="[engine:junit-jupiter]/[class:problems.medium.FindKClosestElements]/[method:test_findClosestKElements_approach_one()]"/>
+    <testcase name="test_findClosestKElements_two" classname="problems.medium.FindKClosestElements" incomplete="true" displayname="test_findClosestKElements_two()" uniqueid="[engine:junit-jupiter]/[class:problems.medium.FindKClosestElements]/[method:test_findClosestKElements_two()]"/>
+  </testsuite>
+</testrun>
