@@ -1,0 +1,9 @@
+package problems.hard;
+/*
+ * problem statement: https://leetcode.com/problems/median-of-two-sorted-arrays/
+ * 
+ */
+public class Median2SortedArrays {
+	
+
+}
