@@ -107,7 +107,6 @@ public class Median2SortedArrays {
 	*/
 	
 	  /*
-	   * Approach two: optimized one
 	  * Solution
 	  * Take minimum size of two array. Possible number of partitions are from 0 to m in m size array.
 	  * Try every cut in binary search way. When you cut first array at i then you cut second array at (m + n + 1)/2 - i
