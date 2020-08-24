@@ -165,7 +165,7 @@ public class Median2SortedArrays {
 			
 		}
 		
-		 //Only we can come here is if input arrays were not sorted.
+		 //Only we we can come here is if input arrays were not sorted.
         throw new IllegalArgumentException();
 	}
 
