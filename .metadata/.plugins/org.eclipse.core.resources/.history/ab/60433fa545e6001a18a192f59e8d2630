@@ -72,7 +72,7 @@ public class Median2SortedArrays {
 //	 * 
 //	 * }
 	 
-	// improved the merge to avoid the need to sort
+	// improved the merge without the need to sort
 	// Time complexity O(m + n) since I only need to iterate over
 	static int[] mergeTwoArrays(int[] arr1, int[] arr2) {
 		int[] result = new int[arr1.length + arr2.length];
