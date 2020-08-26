@@ -1,0 +1,59 @@
+package problems.easy;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
+
+import problems.common.TreeNode;
+
+public class ClosestBSTValue {
+	List<Integer> flattenedBSTArray;
+
+	/*
+	 * approach one:
+	 */
+	public int closestValue(TreeNode root, double target) {
+		// flattening the BST by inorder traversal, I will end up having array of
+		// BST values sorted
+		this.flattenedBSTArray = new ArrayList<Integer>();
+		_inorderTraversal(root);
+		// using java8 collections.min utility to return the value that has minimum
+		// difference with the target
+		// or implement the comparator interface by anonymous object
+		return Collections.min(flattenedBSTArray, new Comparator<Integer>() {
+			@Override
+			public int compare(Integer o1, Integer o2) {
+				return Double.compare(Math.abs(o1 - target), Math.abs(o2 - target));
+			}
+		});
+		// return Collections.min(flattenedBSTArray, Comparator.comparingDouble(o->
+		// Math.abs(target - o)));
+	}
+
+	private void _inorderTraversal(TreeNode root) {
+		if (root == null) {
+			return;
+		}
+		_inorderTraversal(root.getLeft());
+		flattenedBSTArray.add(root.getVal());
+		_inorderTraversal(root.getRight());
+
+	}
+
+	public static void main(String[] args) {
+		TreeNode rootTest = new TreeNode(4);
+		rootTest.setLeft(new TreeNode(2));
+		rootTest.setRight(new TreeNode(5));
+		rootTest.getLeft().setLeft(new TreeNode(1));
+		rootTest.getLeft().setRight(new TreeNode(3));
+		ClosestBSTValue c = new ClosestBSTValue();
+		System.out.println(c.closestValue(rootTest, 3.714286));
+
+		TreeNode rootTest1 = new TreeNode(2);
+		rootTest1.setLeft(new TreeNode(1));
+
+		System.out.println(c.closestValue(rootTest1, 3.0));
+
+	}
+}

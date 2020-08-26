@@ -1,2 +1,5 @@
 1598298143474	Rename local variable 'leftPartitionLength_x'
 1598298159461	Rename local variable 'leftPartitionLength_y'
+1598351170049	Rename local variable 'currentClosest'
+1598351210133	Rename local variable 'difference'
+1598385798556	Rename method 'closestValue'
