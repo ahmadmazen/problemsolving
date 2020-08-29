@@ -162,9 +162,14 @@ public class SearchSortedUnknownSize {
 		ArrayReader reader = new ArrayReader();
 		SearchSortedUnknownSize s = new SearchSortedUnknownSize();
 		reader.nums = new int[] {-1,0,3,5,9,12};
-		System.out.println(s.search_approachOne(reader, 9)); //9 exists in nums and its index is 4
+//		System.out.println(s.search_approachOne(reader, 9)); //9 exists in nums and its index is 4
+//		
+//		System.out.println(s.search_approachOne(reader, 2)); //2 does not exist in nums so return -1
 		
-		System.out.println(s.search_approachOne(reader, 2)); //2 does not exist in nums so return -1
+		
+//        System.out.println(s.search(reader, 9)); //9 exists in nums and its index is 4
+//		
+//		System.out.println(s.search(reader, 2)); //2 does not exist in nums so return -1
 		
 		reader.nums = new int[] {-1,0,5};
 		System.out.println(s.search_approachTwo(reader, 0)); //2 does not exist in nums so return -1
