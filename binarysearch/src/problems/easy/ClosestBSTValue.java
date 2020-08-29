@@ -67,8 +67,8 @@ public class ClosestBSTValue {
 	 * inorder array elements nums[i] <= target < nums[i + 1]. Then the closest
 	 * value is one of these elements.
 	 * 
-	 * Time complexity: O(k) where k is the index of the closest value Space
-	 * complexity: up to O(H) to keep the stack in the case of non-balanced tree.
+	 * Time complexity: O(k) where k is the index of the closest value 
+	 * Space complexity: up to O(H) to keep the stack in the case of non-balanced tree.
 	 */
 	public int closestValue_approachTwo(TreeNode root, double target) {
 		Stack<TreeNode> stack = new Stack<TreeNode>();

@@ -1,0 +1,9 @@
+package problems.common;
+
+/*
+ * trying to simulate the interface needed for solving the problem (Search in sorted array of unknown size)
+ * to run the test here, it's ofcourse implemented by leetcode platform behind the scene
+ */
+public interface ArrayReader {
+
+}
